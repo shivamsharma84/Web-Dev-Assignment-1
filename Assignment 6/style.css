@@ -1,0 +1,77 @@
+body{
+    font-family: cursive;
+    text-align: center;
+    background: #000000;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size:50px;
+    font-weight: 700;
+    text-shadow:6px 6px 10px blue;
+    letter-spacing: 0.1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+button,input{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 270px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px/8px;
+    border-color: lightblue;
+    outline: none;
+    background-color: white;
+}
+div{
+    border: 1px solid whitesmoke;
+    width: 450px;
+    margin:auto;
+    box-shadow: 10px 10px 5px grey;
+}
+#msg{
+    font-size: small;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ol{
+    text-align: center;
+}
+li{
+    list-style: none;
+    background:black;
+    border-radius: 10px;
+    margin: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    width: 200px;
+    border-color: lightblue;
+}
+@media (max-width:400px){
+    div ol{
+        display: inline-block;
+        margin-left: -8%;
+    }
+}
+@media(max-width:990px){
+    div ol{
+        display: inline-block;
+        align-content: center;
+        margin-left: -5%;
+    }
+}
+@media (min-width:1000px){
+    div ol{
+        display: inline-block;
+        align-content: center;
+        margin-left: -3%;
+    }
+}
