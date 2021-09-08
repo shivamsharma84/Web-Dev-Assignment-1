@@ -1,0 +1,133 @@
+*{
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+    background: url("https://geniusfolk.com/wp-content/uploads/2021/09/Untitled-design-68-scaled.jpg") no-repeat fixed center ;
+    background-size:cover;
+}
+h1{
+    padding: 10px;
+    box-shadow: 5px 5px 10px white;
+    margin-top:0px;
+    font-size:50px;
+    text-align:center;
+    color:white;
+    text-shadow: 8px 8px 8px black;
+}
+.container{
+    display:flex;
+    margin-top:15px;
+    flex-direction:column;
+    align-items:center;
+    
+    /*
+    background-color:black;
+    */
+}
+.content{
+    background-color:rgba(95, 95, 95, 0.61);
+    height:auto;
+    width:30%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.938), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width:300px;
+    border-radius:20px;
+    
+   
+}
+.searchbox{
+    width:70%;
+    height:50px;
+    margin:auto;
+    margin-top:5%;
+    padding:20px;
+}
+.searchtag{
+    width:100%;
+    height:100%;
+    text-align:center;
+    color: white;
+    outline:none;
+    border-radius:4px 20px 4px 20px;
+    border:none;
+    border-top:2px solid #331f00;
+    border-left:1px solid #331f00;
+    border-bottom:4px solid whitesmoke; 
+    border-right:4px solid whitesmoke;
+    background-color:  #fff2e6;
+    font-size:25px;
+}
+.CityName{
+    margin-top:2%;
+    text-align:center;
+    color: white;
+    text-shadow: 8px 8px 8px black;
+}
+#city_name{
+    font-size:45px;
+}
+.Date_div{
+    margin-top:2%;
+    text-align:center;
+    color: white;
+    text-shadow: 8px 8px 8px black;
+}
+#Date{
+    font-size:25px;
+}
+.Temp_div{
+    margin-top:6%;
+    text-align:center;
+}
+#Temp{
+    font-size:102px;
+    font-weight:bold;
+    color:white;
+    text-shadow:6px 3px rgba(0, 0, 0,0.7);
+}
+.Icon_div{
+    text-align:center;
+}
+.Climate_div{
+    margin-top:0px;
+    text-align:center;
+
+}
+#Climate {
+    font-size:60px;
+    color:white;
+}
+.TempRange_div{
+    margin-top:3%;
+    text-align:center;
+    padding-bottom:40px;
+
+}
+#TempRange{
+    font-size:50px;
+    color:white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    h1 {
+      font-size: 4vw;
+    }
+  }
+@media screen and (max-width: 800px) {
+    h1 {
+      font-size: 8vw;
+    }
+  }
